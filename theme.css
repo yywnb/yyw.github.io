@@ -1,8 +1,14 @@
 body {
-    background-image: url('background.jpg');
+    background-image: url('background-large.jpg');
     background-size: cover;
     background-attachment: fixed;
     overflow: scroll;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url('background-small.gif');
+    }
 }
 
 h1 {
