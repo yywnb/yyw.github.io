@@ -1,12 +1,20 @@
 body {
-    background-color: #2a6c9c;
-    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
 }
 
 h1 {
-    color: #333;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
 }
 
 p {
-    color: #666;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+a {
+    color: #ff0;
 }
