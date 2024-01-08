@@ -25,6 +25,18 @@ p {
     box-shadow: 2px 2px 4px #000;
 }
 
-a {
-    color: #ff0;
+a:link {
+    color: blue; /* 未访问的链接 */
+}
+
+a:visited {
+    color: purple; /* 已访问的链接 */
+}
+
+a:hover {
+    color: red; /* 鼠标悬停在链接上时 */
+}
+
+a:active {
+    color: yellow; /* 链接被点击的瞬间 */
 }
