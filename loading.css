@@ -67,7 +67,7 @@ ul li:nth-child(6)
 {
     animation-delay: .6s;
 }
-body.loaded #loading-animation {
+ul.loaded {
     opacity: 0;
     visibility: hidden;
 }
