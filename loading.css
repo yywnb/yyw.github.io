@@ -16,7 +16,7 @@ ul li
   list-style: none;
     width: 6px;
     height: 20px;
-    background:#91e448;
+    background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
     margin: 0 4px;
     animation: animate .7s infinite alternate;
 }
