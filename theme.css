@@ -1,6 +1,6 @@
 body {
     background-image: url('background-large.jpg');
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     overflow: scroll;
 }
