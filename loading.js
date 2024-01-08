@@ -1,3 +1,3 @@
 window.onload = function() {
-    document.body.classList.add('loaded');
+    document.querySelector('ul').classList.add('loaded');
 };
