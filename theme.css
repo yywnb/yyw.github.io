@@ -26,17 +26,17 @@ p {
 }
 
 a:link {
-    color: blue; /* 未访问的链接 */
+    color: yellow; /* 未访问的链接 */
 }
 
 a:visited {
-    color: purple; /* 已访问的链接 */
+    color: red; /* 已访问的链接 */
 }
 
 a:hover {
-    color: red; /* 鼠标悬停在链接上时 */
+    color: blue; /* 鼠标悬停在链接上时 */
 }
 
 a:active {
-    color: yellow; /* 链接被点击的瞬间 */
+    color: blue; /* 链接被点击的瞬间 */
 }
