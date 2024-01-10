@@ -40,3 +40,7 @@ a:hover {
 a:active {
     color: blue; /* 链接被点击的瞬间 */
 }
+
+a[href='https://l8576100w7.vicp.fun'] {
+    color: yellow;
+}
